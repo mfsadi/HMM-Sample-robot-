@@ -6,11 +6,15 @@ or move beyond the confines of the area it remains in it's last place. There are
 continuous walking, 200 for training and 200 for test. Each sequence contains steps like 3:3 r  ,
 which 3:3 show the dimensions of the state and 'r' show the observed color. The goal is  to train
 HMM to predict the best sequence of states to observe a given sequence of observations.
-                        ____ ____ ____ ____
-                       |hole|_r__|_y__|_b__|
-                       |_g__|_b__|_r__|hole|
-                       |_r__|hole|_g__|_y__|
-                       |hole|_g__|_y__|_b__|
+                        ____   ____   ____   ____
+                        
+                       |hole|  _r__|  _y__|  _b__|
+                       
+                       |_g__|  _b__|  _r__|  hole|
+                       
+                       |_r__|  hole|  _g__|  _y__|
+                       
+                       |hole|  _g__|  _y__|  _b__|
 
  'r' = red, 'b' = blue, 'g' = green and 'y' = yellow
  ------M.F.Saadi, Zanjan University, Computer Department, 11.19.2016, mfsadi@znu.ac.ir----
